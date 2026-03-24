@@ -2,8 +2,6 @@
 
 A Python tool that takes flat Xbox game cover scans and renders them as realistic 3D box art. Batch process your entire collection in seconds!
 
-The name is a nod to Halo's Forge mode — and fittingly, Halo was one of the test cases that helped forge this tool into shape.
-
 ---
 
 ## Features
@@ -12,7 +10,7 @@ The name is a nod to Halo's Forge mode — and fittingly, Halo was one of the te
 - Interactive spine alignment tool for fine-tuning per cover
 - Batch processes entire cover folders automatically
 - Optional gloss/lighting map support for realistic sheen
-- Handles covers with pure black artwork correctly (no bleedthrough)
+
 
 ---
 
@@ -98,10 +96,5 @@ pts_front_dst = np.array([[42, 23], [545, 67], [545, 832], [42, 857]], dtype="fl
 
 - Input images can be any resolution — they are automatically resized to the reference dimensions before processing
 - The interactive alignment window uses your first cover as a preview — the confirmed offset is then applied to all covers in the batch
-- For covers sourced from eBay auction photos or other angled shots, manual perspective correction in an image editor is recommended before running through the tool
 
 ---
-
-## License
-
-Do whatever you want with it. 😄
